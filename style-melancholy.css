@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&family=Roboto&display=swap');
+
+
+body{
+   background-color:rgb(20,40,161);
+margin:72px 144px;
+display:flex;
+flex-direction: column;
+
+font-family: 'Comic Neue', cursive;
+color:white;
+}
+
+img{
+    width:90%;
+}
+
