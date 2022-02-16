@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&family=Roboto&display=swap');
 
 
 body{
@@ -5,8 +6,15 @@ body{
 margin:72px 144px;
 display:flex;
 flex-direction: column;
+font-family: 'Comic Neue', cursive;
+
 }
 
 img{
     width:90%;
+}
+
+p{
+    font-size: 1.5em;
+
 }
