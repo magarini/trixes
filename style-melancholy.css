@@ -7,16 +7,33 @@ margin:72px 144px;
 display:flex;
 flex-direction: column;
 
-font-family: 'Comic Neue', cursive;
+font-family: 'Arial', cursive;
 color:white;
 }
 
-img{
-    width:90%;
-}
+
 
 
 p{
     font-weight: lighter;
 
+}
+
+
+button{
+    padding:16px 24px;
+    background-color: rgb(20,40,161);
+    color:white;
+    font-size: larger;
+    margin:24px;
+    border-radius: 24px;
+    text-decoration: none;
+    width: auto;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-align: center;
 }
