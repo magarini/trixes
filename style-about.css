@@ -1,0 +1,12 @@
+
+
+body{
+    color:rgb(20,40,161);
+margin:72px 144px;
+display:flex;
+flex-direction: column;
+}
+
+img{
+    width:90%;
+}
