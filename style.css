@@ -1,170 +1,208 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&family=Roboto&display=swap');
 
-h1{
-    margin:72px;
+h1 {
+    margin: 72px;
 }
 
-body{
-    width:100%;
-    display:flex;
+body {
+    width: 100vw;
+    /* height:100vh; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: url('background.png');
-    color:white;
+    color: white;
     font-family: 'Comic Neue', cursive;
     font-weight: lighter;
+    padding: 0;
+    margin: 0;
 
 }
 
-h2{
+h2 {
     font-weight: lighter;
 }
 
-.menu-item-play a{
+
+img.title {
+    max-width: 90vw;
+}
+
+.menu-item-play a {
     font-weight: bolder;
     font-size: 1.5em;
 }
 
-a{
-    color:white;
+a {
+    color: white;
     text-decoration: none;
     font-size: 1.2em;
     text-align: center;
 }
 
-.main{
-    min-width:50%;
+.main {
+    min-width: 50%;
     /* max-width: 900px; */
-    margin:32px;
-    height:900px;
-    display:flex;
+    /* padding: 32px; */
+    height: 75vh;
+    display: flex;
     flex-direction: column;
-    
+    max-width: 90vw;
+    box-sizing: border-box;
+
 
 }
-.menu-item img{
-    width:200px;
+
+.menu-item img {
+    width: 100%;
 }
 
-.menu-item-up img{
-    width:200px;
+.menu-item-up img {
+    width: 100%;
 }
 
-.menu-item-down img{
-    width:200px;
+.menu-item-down img {
+    width: 100%;
+
 }
 
-.menu-item-about img{
-    width:200px;
+.menu-item-about img {
+        width: 100%;
 }
 
-.menu-item-play img{
-    width:200px;
+.menu-item-play img {
+       width: 100%;
 }
 
-.row{
-    display:flex;
+.row {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-align-items: center;   
-margin:40px;
-height:33.3%;
-align-self: center;
-width:90%;
+    align-items: center;
+    /* margin: 40px; */
+    height: 33.3%;
+    align-self: center;
+    width: 90%;
+    box-sizing: border-box;
 }
 
-.row-middle{
-    display:flex;
+.row-middle {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-align-items: center;   
-margin:24px;
-height:33.3%;
-align-self: center;
-width:100%;
+    align-items: center;
+    /* margin: 24px; */
+    height: 33.3%;
+    align-self: center;
+    /* width: 100%; */
+    box-sizing: border-box;
+
 
 
 }
 
-.lastrow{
-    display:flex;
+.lastrow {
+    display: flex;
     flex-direction: row;
     justify-content: center;
-align-items: center;   
+    align-items: center;
+    width: 90%;
+    box-sizing: border-box;
+
+
 }
 
-a:hover{
+a:hover {
     transform: scale(1.2);
 }
 
-button{
-    padding:16px 24px;
-    background-color: rgb(20,40,161);
-    color:white;
+button {
+    padding: 16px 24px;
+    background-color: rgb(20, 40, 161);
+    color: white;
     font-size: larger;
-    margin:24px;
+    margin: 24px;
     border-radius: 24px;
     text-decoration: none;
 }
 
-.menu-item{
+.menu-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
-align-items: center;   
-margin:24px;
-    
+    align-items: center;
+    margin: 24px;
+    box-sizing: border-box;
+    max-width:30%;
+
 }
 
-.menu-item-play{
+.menu-item-play {
     display: flex;
     flex-direction: column;
     justify-content: center;
-align-items: center;   
-margin:40px;
+    align-items: center;
+    margin: 40px;
+    box-sizing: border-box;
 
-    
+
+
 }
 
-.menu-item-about{
+.menu-item-about {
     display: flex;
     flex-direction: column;
     justify-content: center;
-align-items: center;   
-align-self: baseline;
-margin:24px;
+    align-items: center;
+    align-self: baseline;
+    margin: 24px;
+    box-sizing: border-box;
+    max-width:30%;
+
+
 
 }
 
-.menu-item-shots{
+.menu-item-shots {
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-align-items: center;   
-align-self: flex-end;
-margin:24px;
+    align-items: center;
+    align-self: flex-end;
+    margin: 24px;
+    box-sizing: border-box;
+    max-width:30%;
+
+
 
 }
 
-.menu-item-down{
+.menu-item-down {
     display: flex;
     flex-direction: column;
     justify-content: center;
-align-items: center;   
-align-self: flex-end;
-margin:24px;
+    align-items: center;
+    align-self: flex-end;
+    /* margin: 24px; */
+    box-sizing: border-box;
+    width:30%;
+
+
 
 }
 
-.menu-item-up{
+.menu-item-up {
     display: flex;
     flex-direction: column;
     justify-content: center;
-align-items: center;   
-align-self: flex-start;
-margin:24px;
+    align-items: center;
+    align-self: flex-start;
+    /* margin: 24px; */
+    box-sizing: border-box;
+    width:30%;
+
+
 
 }
-
