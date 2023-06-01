@@ -37,7 +37,7 @@ img.title {
 a {
     color: white;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: center;
 }
 
@@ -45,13 +45,12 @@ a {
     min-width: 50%;
     /* max-width: 900px; */
     /* padding: 32px; */
+    margin-top:24px;
     height: 75vh;
     display: flex;
     flex-direction: column;
-    max-width: 90vw;
+    max-width: 75vw;
     box-sizing: border-box;
-
-
 }
 
 .menu-item img {
@@ -75,13 +74,22 @@ a {
        width: 100%;
 }
 
+.menu-item .smallerImg{
+    width:50%;
+}
+
+.menu-item-up .smallerImg{
+    width:80%;
+}
+
+
 .row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     /* margin: 40px; */
-    height: 33.3%;
+    /* height: 33.3%; */
     align-self: center;
     width: 90%;
     box-sizing: border-box;
@@ -93,13 +101,10 @@ a {
     justify-content: space-between;
     align-items: center;
     /* margin: 24px; */
-    height: 33.3%;
+    /* height: 33.3%; */
     align-self: center;
     /* width: 100%; */
     box-sizing: border-box;
-
-
-
 }
 
 .lastrow {
@@ -202,7 +207,13 @@ button {
     /* margin: 24px; */
     box-sizing: border-box;
     width:30%;
+}
 
 
+@media only screen and (max-width: 800px) {
+    
+    .main{
+        max-width: 90vw;
+    }
 
 }
