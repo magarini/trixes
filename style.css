@@ -49,7 +49,7 @@ a {
     height: 75vh;
     display: flex;
     flex-direction: column;
-    max-width: 75vw;
+    max-width: 60vw;
     box-sizing: border-box;
 }
 
